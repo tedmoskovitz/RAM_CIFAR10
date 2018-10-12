@@ -1,5 +1,5 @@
 class Config(object):
-  win_size = 8
+  win_size = 9
   bandwidth = win_size * win_size
   batch_size = 64
   eval_batch_size = 50
@@ -9,7 +9,7 @@ class Config(object):
   depth = 3
   sensor_size = win_size * win_size * depth
   minRadius = 8
-  hg_size = hl_size = 100 #128
+  hg_size = hl_size = 128
   g_size = 256
   cell_output_size = 256
   loc_dim = 2
